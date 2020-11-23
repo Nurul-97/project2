@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=option] {
+  width: 100%;
+  padding: 14px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  
+}
+
+button:hover {
+  opacity: 1;
+}
+
+.cancelbtn {
+  width: 50%;
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+
+</style>
+</head>
+<body>
+
+<h2>Manage Trip(User)</h2>
+<p>Please edit this for user to manage trip</p>
+  <div class="container">
+
+    <label for="Gender"><b>Gender:</b></label>
+    <select name="Gender" id="Gender" required>
+      <option value="-">-</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+      </select>
+      <br>
+      <br>
+    <label for="Time "><b>Time:</b></label>
+    <input type="time" id="Time" name="Time" required>
+      </select>
+      <br>
+      <br>
+    <label for="Inasis/From Where"><b>Inasis/From Where:</b></label>
+    <select name="Inasis/From Where" id="Inasis/From Where" required>
+      <option value="-">-</option>
+      <option value="Changlun">Changlun</option>
+      <option value="SOIS">SOIS</option>
+      <option value="Chancellery">Chancellery</option>
+      <option value="Library">Library</option>
+      <option value="DKG 1,2,3,4,5,6">DKG 1,2,3,4,5,6</option>
+      <option value="Route A">Route A</option>
+      <option value="Route B">Route B</option>
+      <option value="Route C">Route C</option>
+      <option value="Route D">Route D</option>
+      <option value="DMAS/DTSO">DMAS/DTSO</option>
+      <option value="Sport Centre">Sport Centre</option>
+        </select>
+        <br>
+        <br>
+    <label for="Place To Go"><b>Place To Go:</b></label>
+    <select name="Place To Go" id="Place To Go" required>
+      <option value="-">-</option>
+        <option value="Changlun">Changlun</option>
+        <option value="SOIS">SOIS</option>
+        <option value="Chancellery">Chancellery</option>
+        <option value="Library">Library</option>
+        <option value="DKG 1,2,3,4,5,6">DKG 1,2,3,4,5,6</option>
+        <option value="Route A">Route A</option>
+        <option value="Route B">Route B</option>
+        <option value="Route C">Route C</option>
+        <option value="Route D">Route D</option>
+        <option value="DMAS/DTSO">DMAS/DTSO</option>
+        <option value="Sport Centre">Sport Centre</option>
+      </select>
+   <br>
+   <br>
+
+   <button type="submit">Edit</button>
+   <button type="button" class="cancelbtn">Cancel</button>
+
+
+    
+</form>
+
+</body>
+</html>
